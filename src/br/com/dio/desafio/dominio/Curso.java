@@ -9,7 +9,10 @@ public class Curso extends Conteudo{
         return XP_PADRAO * cargaHoraria;
     }
 
-    public Curso() {
+    public Curso(String titulo, String descricao, int cargaHoraria) {
+        this.setTitulo(titulo);
+        this.setDescricao(descricao);
+        this.cargaHoraria = cargaHoraria;
     }
 
 
